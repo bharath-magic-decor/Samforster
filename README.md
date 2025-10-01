@@ -1,68 +1,26 @@
 # 🚀 Project Nebula
 
-Project Nebula is a futuristic open-source platform designed to simplify cosmic data visualization and interstellar communication for developers and researchers.  
-It combines AI-driven insights, real-time monitoring, and an elegant UI.
-
----
-
-## ✨ Features
-- 🔭 Star-mapping with real-time data updates  
-- 🛰️ Satellite communication simulation  
-- 🧩 Modular plugin system  
-- 📊 Interactive dashboards with charts and graphs  
-- 🌌 Dark mode by default (because space 🌑)  
-
----
-
-## 🛠 Tech Stack
-- **Frontend:** React, TailwindCSS, Framer Motion  
-- **Backend:** Node.js, Express  
-- **Database:** PostgreSQL, Redis  
-- **Cloud:** Docker, Kubernetes, AWS  
-- **Extras:** WebSockets, GraphQL  
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-Make sure you have installed:
-- [Node.js](https://nodejs.org/) (v16+)  
-- [Docker](https://www.docker.com/)  
-- [Git](https://git-scm.com/)  
-
-### Installation
-```bash
-# Clone the repository
-git clone https://github.com/your-username/project-nebula.git
-
-# Navigate into the folder
-cd project-nebula
-
-# Install dependencies
-npm install
-
-
-# 🚀 Project Nebula
-
 ![Build](https://img.shields.io/badge/build-passing-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Contributions](https://img.shields.io/badge/contributions-welcome-orange.svg)
 ![Stars](https://img.shields.io/github/stars/your-username/project-nebula?style=social)
+![Issues](https://img.shields.io/github/issues/your-username/project-nebula)
+![PRs](https://img.shields.io/github/issues-pr/your-username/project-nebula)
 
-Project Nebula is a futuristic open-source platform designed to simplify **cosmic data visualization** and **interstellar communication** for developers and researchers.  
-It combines AI-driven insights, real-time monitoring, and an elegant UI.
+> **Project Nebula** is a futuristic open-source platform that simplifies **cosmic data visualization** and **interstellar communication** for developers and researchers.  
+It combines **AI-driven insights**, **real-time monitoring**, and an **elegant UI** to make space exploration more accessible.
 
 ---
 
 ## ✨ Features
-- 🔭 Star-mapping with **real-time data**  
+- 🔭 Star-mapping with **real-time data updates**  
 - 🛰️ Satellite communication **simulator**  
 - 🧩 Modular **plugin system**  
-- 📊 Interactive **dashboards** with charts and graphs  
-- 🌌 **Dark mode** by default (because space 🌑)  
+- 📊 Interactive **dashboards & graphs**  
+- 🌌 **Dark mode** by default  
 - ⚡ Offline-first with caching  
-- 🔐 Secure API authentication with JWT  
+- 🔐 Secure API authentication (JWT)  
+- 🧠 AI-powered constellation recognition  
 
 ---
 
@@ -75,28 +33,13 @@ It combines AI-driven insights, real-time monitoring, and an elegant UI.
 
 ---
 
-## 🚀 Getting Started
-
-### Prerequisites
-Make sure you have installed:
-- [Node.js](https://nodejs.org/) (v16+)  
-- [Docker](https://www.docker.com/)  
-- [Git](https://git-scm.com/)  
-
-### Installation
+## 📂 Project Structure
 ```bash
-# Clone the repository
-git clone https://github.com/your-username/project-nebula.git
-
-# Navigate into the folder
-cd project-nebula
-
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-
-
-# Start development server
-npm run dev
+project-nebula/
+│── frontend/        # React app (UI)
+│── backend/         # Node.js + Express API
+│── docs/            # Documentation
+│── scripts/         # Dev & deployment scripts
+│── .env.example     # Example environment variables
+│── docker-compose.yml
+│── README.md
