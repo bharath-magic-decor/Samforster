@@ -1,53 +1,55 @@
-# ⚡ NeonFlow
+# 🏰 DragonForge Engine
 
-![Build](https://img.shields.io/badge/build-passing-green)
-![License](https://img.shields.io/badge/license-Apache%202.0-blue)
-![Contributions](https://img.shields.io/badge/contributions-welcome-orange)
-![Version](https://img.shields.io/badge/version-0.8.1-purple)
-![Stars](https://img.shields.io/github/stars/your-username/neonflow?style=social)
+![Build](https://img.shields.io/badge/build-stable-green)
+![License](https://img.shields.io/badge/license-GPLv3-blue)
+![Version](https://img.shields.io/badge/version-2.1.0-gold)
+![Stars](https://img.shields.io/github/stars/your-username/dragonforge?style=social)
+![Contributions](https://img.shields.io/badge/contributions-open-orange)
 
-> **NeonFlow** is a cyberpunk-inspired productivity and task automation platform.  
-It blends AI, automation, and neon aesthetics to help individuals and teams **work smarter, faster, and cooler**.
+> **DragonForge** is an open-source **fantasy RPG engine** for building immersive worlds, epic quests, and tactical battles.  
+Designed for indie developers, storytellers, and dreamers of magical realms. ✨
 
 ---
 
-## ✨ Features
-- 🧠 AI-powered task automation  
-- 📅 Cyberpunk-themed Kanban boards  
-- 🎧 Focus mode with ambient neon synthwave music  
-- ⚡ Real-time collaboration (WebSockets)  
-- 🔐 Secure authentication (OAuth2 + JWT)  
-- 🌓 Auto dark mode & neon glow UI  
-- 🔌 Plugin system for custom workflows  
+## 🐉 Features
+- ⚔️ Turn-based combat system  
+- 📖 Branching quest engine  
+- 🏞️ World map generator with procedural landscapes  
+- 🧙 AI-driven NPC dialogue & behaviors  
+- 🎶 Dynamic medieval soundtrack system  
+- 🏰 Mod support with custom assets & scripts  
+- 🔐 Save/load with encrypted game states  
 
 ---
 
 ## 🛠 Tech Stack
-- **Frontend:** Vue 3, Vite, TailwindCSS  
-- **Backend:** Go (Fiber), gRPC  
-- **Database:** MongoDB, Redis  
-- **Infra:** Docker, Kubernetes, GitHub Actions  
-- **AI Layer:** Python microservices (FastAPI + HuggingFace)  
+- **Core Engine:** C++20  
+- **Scripting:** Lua 5.4  
+- **Rendering:** OpenGL + SDL2  
+- **Audio:** FMOD  
+- **Build System:** CMake  
+- **DevOps:** GitHub Actions + Docker  
 
 ---
 
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Node.js v18+  
-- Go 1.20+  
-- Docker  
+- C++20 Compiler  
+- CMake v3.20+  
+- SDL2 & OpenGL  
+- Lua 5.4  
 
 ### Installation
 ```bash
-# Clone the repo
-git clone https://github.com/your-username/neonflow.git
-cd neonflow
+# Clone repository
+git clone https://github.com/your-username/dragonforge.git
+cd dragonforge
 
-# Start backend
-go run main.go
+# Create build
+mkdir build && cd build
+cmake ..
+make
 
-# Start frontend
-cd frontend
-npm install
-npm run dev
+# Run demo
+./dragonforge-demo
